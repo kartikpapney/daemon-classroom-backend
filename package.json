@@ -1,0 +1,21 @@
+{
+  "name": "daemon-classroom",
+  "version": "1.0.0",
+  "description": "Daemon Classroom",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon \"server.js\""
+  },
+  "author": "Kartik Papney",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.2",
+    "js-sha256": "^0.9.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.3.1",
+    "mongoose": "^6.2.1",
+    "nodemon": "^2.0.15"
+  }
+}

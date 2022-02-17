@@ -1,0 +1,32 @@
+POST http://localhost:8000/auth/signup HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Vaibhav",
+    "authority": "444",
+    "mobileNo": "9818155241",
+    "emailID": "pdt@gmail.com",
+    "password": "123456"
+}
+
+###
+
+POST http://localhost:8000/auth/login HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Vaibhav",
+    "authority": "444",
+    "mobileNo": "9818155241",
+    "emailID": "pdt@gmail.com",
+    "password": "123456"
+}
+
+###
+
+POST http://localhost:8000/auth/ HTTP/1.1
+content-type: application/json
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Im5hbWUiOiJWYWliaGF2IiwiYXV0aG9yaXR5IjoiNDQ0IiwibW9iaWxlTm8iOiI5ODE4MTU1MjQxIiwiZW1haWxJRCI6InBkdEBnbWFpbC5jb20ifSwiaWF0IjoxNjQ1MDgyMzk4LCJleHAiOjE2NDUwODI0Mjh9.JaVt5RvH6YdzVI5yexe7DQ6IPnZwh-21byqnwwWxyCY"
+}
